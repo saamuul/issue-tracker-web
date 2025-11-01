@@ -1,6 +1,6 @@
 # Issue Tracker
 
-A Jakarta EE-based issue tracking application built with Java EE technologies.
+A Jakarta EE-based issue tracking application built with Java EE technologies as a project for Polytechnic Final Year Project.
 
 ## Overview
 
@@ -57,5 +57,6 @@ mvn clean install
 - Dashboard and reporting
 
 ## License
+
 
 This project is for educational purposes.
