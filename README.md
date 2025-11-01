@@ -1,6 +1,6 @@
 # Issue Tracker
 
-A Jakarta EE-based issue tracking application built with Java EE technologies as a project for Polytechnic Final Year Project.
+A Jakarta EE-based issue tracking application built with Java EE technologies for Polytechnic FYP.
 
 ## Overview
 
@@ -60,3 +60,4 @@ mvn clean install
 
 
 This project is for educational purposes.
+
