@@ -1,0 +1,2 @@
+Place config folder (issue-tracker/extras/Glassfish_Folder/Configuration/config) in your local glassfish for testing.
+E.g. D:/glassfish6/glassfish/domains/domain1/config

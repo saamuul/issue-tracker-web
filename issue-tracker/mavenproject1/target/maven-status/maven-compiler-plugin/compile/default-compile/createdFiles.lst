@@ -1,0 +1,6 @@
+edu\mac\issuetracker\team\manager\TeamAssignmentManager.class
+edu\mac\issuetracker\team\entity\TeamAssignment.class
+edu\mac\issuetracker\team\outputInfo\MappingStatus.class
+edu\mac\issuetracker\team\data\AbstractFacade.class
+edu\mac\issuetracker\team\data\TeamAssignmentFacade.class
+MappingStatus.class
