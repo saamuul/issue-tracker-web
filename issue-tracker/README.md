@@ -1,20 +1,61 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Issue Tracker
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+A Jakarta EE-based issue tracking application built with Java EE technologies.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Overview
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+This is a multi-module enterprise Java application for managing and tracking issues. The application uses Jakarta EE components including EJB, JPA, and JSF to provide a complete issue management system.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Tech Stack
+
+- **Java EE / Jakarta EE**
+- **GlassFish 6.1.0** - Application Server
+- **Maven** - Build Tool
+- **EJB** - Business Logic Layer
+- **JPA** - Data Persistence
+- **JSF** - Web Interface
+- **PrimeFaces** - UI Components
+
+## Project Structure
+
+```
+issue-tracker/
+├── issue-tracker-web/          # Web module (JSF, Servlets)
+├── issue-tracker-issue-ejb/    # Issue management EJB module
+├── issue-tracker-staff-ejb/    # Staff/user management EJB module
+├── issue-tracker-ear/          # Enterprise Archive (EAR)
+├── IssueExtendedAssignment/    # Extended assignment module
+└── extras/                     # GlassFish configuration files
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Java 11 or higher
+- Maven 3.6+
+- GlassFish 6.1.0 (included in the project)
+
+### Build
+
+```bash
+mvn clean install
+```
+
+### Deploy
+
+1. Start GlassFish server from `glassfish-6.1.0/glassfish6/bin/`
+2. Deploy the EAR file from `issue-tracker-ear/target/`
+
+## Features
+
+- Issue creation and tracking
+- User authentication and authorization
+- Role-based access control
+- Tag and priority management
+- Team assignment
+- Dashboard and reporting
+
+## License
+
+This project is for educational purposes.
